@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Mahasiswa not found</title>
+    </head>
+    <body>
+    	<div th:replace="fragments/fragment :: header"></div>
+    	<h1>Mahasiswa not found</h1>
+       	<h3 th:text="'npm = ' + ${npm}">Mahasiswa NPM</h3>
+       	<div th:replace="fragments/fragment :: footer"></div>
+    </body>
+</html>
